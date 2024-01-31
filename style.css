@@ -29,9 +29,3 @@ body, h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   overflow: hidden; /* ensures the content does not overflow the grid area */
 }
-
-.grid-item img {
-  max-width: 100%; /* ensures the image is not wider than the grid item */
-  max-height: 100%; /* ensures the image is not taller than the grid item */
-  object-fit: contain; /* maintains the aspect ratio of the image */
-}
