@@ -1,7 +1,7 @@
 model-viewer {
-  width: 100vw;
+  width: 100vw !important;
   /* 100% of the viewport width */
-  height: 100vh;
+  height: 100vh !important;
   /* 100% of the viewport height */
 }
 
