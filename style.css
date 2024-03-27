@@ -41,8 +41,8 @@ img {
   width: 100%; max-width: 100%
 }
 .image-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .image-container img {
   margin: 10px; /* Adjust spacing between images */
