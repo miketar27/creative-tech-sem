@@ -12,6 +12,13 @@ body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Sixtyfour', sans-serif;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .grid-container2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -60,4 +67,17 @@ img {
 
 .grid-item img {
     width: 100%; max-width: 100%; 
+  }
+
+.top-image {
+    height: 50vh; /* 50% of the viewport height */
+  }
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, 12.5vh); /* 4 rows */
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 50vh; /* Remaining 50% of the viewport height */
   }
