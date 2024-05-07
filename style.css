@@ -69,9 +69,6 @@ img {
     width: 100%; max-width: 100%; 
   }
 
-#top-image {
-    height: 50vh; /* 50% of the viewport height */
-  }
 #grid-container3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
